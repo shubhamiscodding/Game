@@ -21,12 +21,14 @@ body{
     column-gap: 3rem;
 }
 .resultimg img{
-    height: 230px;
+    max-height: 220px;
 }
 .user img{
+    height: 220px;
     transform: rotate(90deg);
 }
 .cpu img{
+    height: 220px;
     transform: rotate(270deg) rotateY(180deg);
 }
 .result{

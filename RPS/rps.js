@@ -38,17 +38,18 @@ const gamecontain =document.querySelector('.gamecontain');
         // console.log(uservalue,cpuvalue)
         let outcome={
             rr : "DRAW",
-            rp : "USER Wins",
-            rs : "CPU Win!",
-            pr : "CPU Win!",
+            rp : "USER Win",
+            rs : "CPU Win",
+            pr : "CPU Win",
             pp : "DRAW",
-            ps : "USER Wins",
-            sr : "USER Wins",
-            sp : "CPU Win!",
+            ps : "USER Win",
+            sr : "USER Win",
+            sp : "CPU Win",
             ss : "DRAW"
         };
         let outcomevalue=outcome[cpuvalue+uservalue]
-        console.log(outcomevalue)
+        let p=console.log(outcomevalue)
+        result.innerHTML = outcomevalue;
         
     })
  })
